@@ -85,3 +85,4 @@ public class User {
         this.email = email;
     }
 }
+//?verifyServerCertificate=false&useSSL=false&requireSSL=false&useLegacyDatetimeCode=false&amp&serverTimezone=UTC&encoding=UTF8
