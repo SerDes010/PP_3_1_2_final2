@@ -2,6 +2,7 @@ package web.PP_3_1_2_final.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import web.PP_3_1_2_final.dao.UserDAO;
 import web.PP_3_1_2_final.model.User;
 
@@ -10,6 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @Service
+@Transactional
 public class UserServiceImpl implements UserService {
 
     private final UserDAO userDAO;
